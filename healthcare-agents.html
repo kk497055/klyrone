@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Agents | Klyrone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="solution-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html" class="logo"><img src="images/2a.png" alt="Klyrone Logo" class="logo-img">Klyrone</a>
+        </div>
+        <div class="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#solutions">Solutions</a></li>
+                <li><a href="index.html#case-studies">Case Studies</a></li>
+                <li><a href="index.html#team">Team</a></li>
+                <li><a href="index.html#partners">Partners</a></li>
+                <li><a href="mailto:info@klyrone.com" class="btn-contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="solution-hero">
+        <div class="solution-hero-content">
+            <h1>Healthcare Agents</h1>
+            <p>Autonomous AI assistants that handle administrative tasks, enhance patient engagement, and streamline clinical workflows</p>
+        </div>
+        <div class="solution-hero-image">
+            <div class="particles-container">
+                <canvas id="particles"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section class="solution-overview">
+        <div class="solution-container">
+            <div class="solution-overview-content">
+                <h2>The Future of Healthcare Automation</h2>
+                <p>Klyrone's Healthcare Agents are autonomous AI assistants that handle routine administrative and clinical support tasks with human-like understanding and problem-solving capabilities. Unlike traditional automation tools, our agents can navigate complex workflows, adapt to changing circumstances, and communicate naturally with patients and staff. By offloading routine tasks to AI agents, healthcare organizations can redirect human talent to high-value activities that require empathy and complex judgment.</p>
+                <div class="solution-stats">
+                    <div class="stat-item">
+                        <h3>85%</h3>
+                        <p>Reduction in administrative workload</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>Patient support availability</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>62%</h3>
+                        <p>Improvement in staff satisfaction</p>
+                    </div>
+                </div>
+            </div>
+            <div class="solution-overview-image">
+                <img src="images/insurance.jpg" alt="Healthcare Agents">
+            </div>
+        </div>
+    </section>
+
+    <section class="solution-features">
+        <div class="solution-container">
+            <h2>Key Features</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Intelligent Scheduling</h3>
+                    <p>Our agents manage appointment scheduling, rescheduling, and reminders while optimizing provider calendars for maximum efficiency.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Patient Communication</h3>
+                    <p>Natural language processing enables agents to handle routine patient inquiries, provide pre-visit instructions, and collect intake information.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>Insurance Verification</h3>
+                    <p>Agents automatically verify insurance eligibility, benefits, and prior authorizations before appointments, reducing claim denials.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Follow-up Management</h3>
+                    <p>Coordinate post-visit care by scheduling follow-up appointments, sending medication reminders, and monitoring adherence to care plans.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="solution-agentic">
+        <div class="solution-container">
+            <div class="agentic-content">
+                <h2>True Agentic AI Technology</h2>
+                <p>Our Healthcare Agents represent the cutting edge of agentic AI, capable of:</p>
+                <ul class="agentic-features">
+                    <li><span class="highlight">Autonomous decision-making</span> within defined parameters and escalation protocols</li>
+                    <li><span class="highlight">Multi-step planning</span> to navigate complex healthcare workflows and processes</li>
+                    <li><span class="highlight">Contextual understanding</span> of healthcare terminology, regulations, and best practices</li>
+                    <li><span class="highlight">Adaptive learning</span> from interactions to continuously improve performance</li>
+                    <li><span class="highlight">Seamless collaboration</span> with human staff through natural handoffs when human judgment is needed</li>
+                </ul>
+                <p>Unlike simple chatbots or rule-based automation, our agents possess the intelligence to handle exceptions, recognize patterns, and make appropriate decisions based on comprehensive understanding of healthcare contexts.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="agent-types">
+        <div class="solution-container">
+            <h2>Specialized Healthcare Agents</h2>
+            <div class="agent-grid">
+                <div class="agent-card">
+                    <div class="agent-icon">
+                        <i class="fas fa-user-nurse"></i>
+                    </div>
+                    <h3>Front Office Agent</h3>
+                    <p>Manages scheduling, registration, and patient communications</p>
+                    <ul class="agent-capabilities">
+                        <li>Appointment scheduling and reminders</li>
+                        <li>Insurance verification</li>
+                        <li>Patient intake and form completion</li>
+                        <li>Waitlist management</li>
+                    </ul>
+                </div>
+                <div class="agent-card">
+                    <div class="agent-icon">
+                        <i class="fas fa-notes-medical"></i>
+                    </div>
+                    <h3>Clinical Support Agent</h3>
+                    <p>Assists with documentation and clinical workflow</p>
+                    <ul class="agent-capabilities">
+                        <li>Documentation assistance</li>
+                        <li>Order management</li>
+                        <li>Clinical protocol adherence</li>
+                        <li>Care gap identification</li>
+                    </ul>
+                </div>
+                <div class="agent-card">
+                    <div class="agent-icon">
+                        <i class="fas fa-hand-holding-medical"></i>
+                    </div>
+                    <h3>Patient Care Agent</h3>
+                    <p>Supports patients between visits</p>
+                    <ul class="agent-capabilities">
+                        <li>Medication reminders</li>
+                        <li>Symptom monitoring</li>
+                        <li>Care plan adherence</li>
+                        <li>Health education</li>
+                    </ul>
+                </div>
+                <div class="agent-card">
+                    <div class="agent-icon">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3>Revenue Cycle Agent</h3>
+                    <p>Optimizes billing and payment processes</p>
+                    <ul class="agent-capabilities">
+                        <li>Claim status tracking</li>
+                        <li>Payment posting</li>
+                        <li>Denial management</li>
+                        <li>Patient billing support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="solution-use-cases">
+        <div class="solution-container">
+            <h2>Implementation Success Stories</h2>
+            <div class="use-cases-grid">
+                <div class="use-case">
+                    <h3>Multi-Specialty Clinic</h3>
+                    <p>Reduced no-show rates by 47% and increased patient satisfaction scores by 28% through intelligent appointment management and personalized reminders.</p>
+                </div>
+                <div class="use-case">
+                    <h3>Hospital System</h3>
+                    <p>Saved 12,000+ nursing hours annually by automating routine documentation and follow-up tasks, allowing nurses to spend more time on direct patient care.</p>
+                </div>
+                <div class="use-case">
+                    <h3>Mental Health Practice</h3>
+                    <p>Improved medication adherence by 52% through personalized check-ins and supportive messaging between therapy sessions.</p>
+                </div>
+                <div class="use-case">
+                    <h3>Rural Health Network</h3>
+                    <p>Extended care team capabilities across 12 underserved communities by providing 24/7 patient support and care coordination.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="solution-testimonial">
+        <div class="solution-container">
+            <div class="testimonial">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <blockquote>
+                    "Implementing Klyrone's Healthcare Agents has been transformative for our practice. Our staff is no longer overwhelmed by administrative tasks, and patients love the immediate responses to their questions at any time of day. The agents handle routine matters so effectively that our team can focus on providing exceptional care to patients with complex needs."
+                </blockquote>
+                <div class="testimonial-author">
+                    <p><strong>Dr. Marcus Johnson</strong><br>Medical Director, Tidemark Therapy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="solution-implementation">
+        <div class="solution-container">
+            <h2>Implementation Process</h2>
+            <div class="implementation-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Assessment</h3>
+                    <p>We analyze your workflows, identify automation opportunities, and develop a customized implementation plan.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Configuration</h3>
+                    <p>Our team configures agents to match your specific protocols, terminology, and integration requirements.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Training</h3>
+                    <p>Agents undergo supervised learning with your historical data to ensure accurate and appropriate responses.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Deployment</h3>
+                    <p>Phased rollout with careful monitoring and continuous optimization based on performance metrics.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Continuous Improvement</h3>
+                    <p>Ongoing analysis and enhancement of agent capabilities based on new scenarios and feedback.</p>
+                </div>
+            </div>
+            <p class="implementation-note">Typical implementation time: 6-8 weeks from initial assessment to full deployment</p>
+        </div>
+    </section>
+
+    <section class="solution-cta">
+        <div class="solution-container">
+            <h2>Ready to Transform Your Healthcare Operations?</h2>
+            <p>Schedule a consultation to discover how Klyrone's Healthcare Agents can address your specific operational challenges.</p>
+            <div class="cta-buttons">
+                <a href="https://calendly.com/kamrankashif798/30min" target="_blank" class="btn-primary">Schedule Consultation</a>
+                <a href="https://calendly.com/kamrankashif798/30min" target="_blank" class="btn-secondary">Contact Sales</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="index.html" class="logo">Klyrone</a>
+                <p>AI-powered solutions for healthcare</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Solutions</h4>
+                    <ul>
+                        <li><a href="clinical-diagnosis.html">Clinical Diagnosis</a></li>
+                        <li><a href="rcm-optimization.html">Revenue Cycle Management</a></li>
+                        <li><a href="healthcare-agents.html">Healthcare Agents</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Publications</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Documentation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Klyrone. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150">
+  <rect width="300" height="150" fill="transparent"/>
+  <text x="150" y="60" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">TIDEMARK</text>
+  <text x="150" y="90" font-family="Arial" font-size="20" fill="white" text-anchor="middle">VA, USA</text>
+  <rect x="70" y="100" width="160" height="4" fill="#ff3e3e"/>
+</svg>

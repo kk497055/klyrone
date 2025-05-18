@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#2a2a2a"/>
+  <rect x="100" y="50" width="400" height="200" fill="#333333" rx="10" ry="10"/>
+  <rect x="150" y="80" width="300" height="20" fill="#ff3e3e" opacity="0.8"/>
+  <rect x="150" y="120" width="300" height="10" fill="white" opacity="0.6"/>
+  <rect x="150" y="140" width="300" height="10" fill="white" opacity="0.6"/>
+  <rect x="150" y="160" width="200" height="10" fill="white" opacity="0.6"/>
+  <rect x="150" y="200" width="100" height="30" fill="#ff3e3e" rx="5" ry="5"/>
+  <text x="300" y="250" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Regional Hospital Network</text>
+</svg>

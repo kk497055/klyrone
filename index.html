@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klyrone - AI Co-Pilot for Healthcare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html" class="logo">
+                <img src="images/klyrone-logo.png" alt="Klyrone Logo" class="logo-img">
+                Klyrone
+            </a>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#solutions">Solutions</a></li>
+                    <li><a href="#case-studies">Case Studies</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="mailto:info@klyrone.com" class="btn-contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>AI Co-Pilot for Healthcare</h1>
+            <p>Klyrone builds agentic solutions and fine-tuned LLMs for healthcare, focusing on Clinical Diagnosis and Revenue Cycle Management (RCM). Our AI systems work alongside healthcare professionals to enhance diagnostic accuracy and optimize billing processes.</p>
+            <a href="https://calendly.com/kamrankashif798/30min" target="_blank" class="btn-primary">Get Started</a>
+        </div>
+        <div class="hero-image">
+            <div class="particles-container">
+                <canvas id="particles"></canvas>
+            </div>
+            <div class="particle-web-container">
+                <canvas id="particle-web"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="features">
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Intelligent Diagnosis</h3>
+                <p>Our AI systems analyze patient data, medical history, and symptoms to assist healthcare professionals in making accurate diagnoses, reducing errors and improving patient outcomes.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Revenue Optimization</h3>
+                <p>Klyrone's RCM solutions streamline billing processes, reduce claim denials, and maximize revenue for healthcare providers through intelligent automation and predictive analytics.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>Agentic Workflows</h3>
+                <p>Our agentic AI solutions autonomously handle complex healthcare tasks, from patient documentation to insurance verification, freeing up valuable time for healthcare professionals.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="solutions" class="solutions">
+        <h2>Our Solutions</h2>
+        <div class="solutions-grid">
+            <div class="solution-card">
+                <div class="solution-icon">
+                    <i class="fas fa-stethoscope"></i>
+                </div>
+                <h3>Clinical Diagnosis Assistant</h3>
+                <p>AI-powered system that analyzes patient data and medical history to assist healthcare professionals in making accurate diagnoses.</p>
+                <ul class="solution-features">
+                    <li>Symptom analysis and pattern recognition</li>
+                    <li>Medical literature integration</li>
+                    <li>Diagnostic suggestion with confidence levels</li>
+                </ul>
+                <a href="clinical-diagnosis.html" class="btn-secondary">Learn More</a>
+            </div>
+            <div class="solution-card">
+                <div class="solution-icon">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                </div>
+                <h3>RCM Optimization Suite</h3>
+                <p>Comprehensive revenue cycle management solution that streamlines billing processes and reduces claim denials.</p>
+                <ul class="solution-features">
+                    <li>Automated claim processing and verification</li>
+                    <li>Denial prediction and prevention</li>
+                    <li>Revenue optimization analytics</li>
+                </ul>
+                <a href="rcm-optimization.html" class="btn-secondary">Learn More</a>
+            </div>
+            <div class="solution-card">
+                <div class="solution-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>Healthcare Agents</h3>
+                <p>Autonomous AI agents that handle routine healthcare administrative tasks, freeing up staff time for patient care.</p>
+                <ul class="solution-features">
+                    <li>Appointment scheduling and management</li>
+                    <li>Insurance verification</li>
+                    <li>Patient follow-up coordination</li>
+                </ul>
+                <a href="healthcare-agents.html" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="case-studies" class="case-studies">
+        <h2>Case Studies</h2>
+        <div class="case-studies-grid">
+            <div class="case-study-card">
+                <div class="case-study-image">
+                    <a href="case-study-mental-health.html">
+                        <img src="images/mental-health-case-study.jpg" alt="Mental Health Case Study">
+                    </a>
+                </div>
+                <div class="case-study-content">
+                    <h3>Mental Health & TMS/Spravato Treatments</h3>
+                    <p class="case-study-stats">93% reduction in coding denials | $620K additional revenue</p>
+                    <p>Optimized CPT/ICD coding and revenue cycle for innovative mental health treatments including Spravato and TMS, dramatically improving reimbursement rates.</p>
+                    <a href="case-study-mental-health.html" class="btn-secondary">View Case Study</a>
+                </div>
+            </div>
+            <div class="case-study-card">
+                <div class="case-study-image">
+                    <a href="case-study-multi-specialty.html">
+                        <img src="images/multi-speciality-clinic.jpg" alt="Clinic Case Study">
+                    </a>
+                </div>
+                <div class="case-study-content">
+                    <h3>Regional Multi-Specialty Clinic</h3>
+                    <p class="case-study-stats">82% reduction in context review time | 35% better clinical insights</p>
+                    <p>Transformed how specialists access and understand patient context across multiple disciplines, improving care coordination and reducing duplicate testing.</p>
+                    <a href="case-study-multi-specialty.html" class="btn-secondary">View Case Study</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <h2>Our Team</h2>
+        <p class="team-intro">Our leadership team combines decades of expertise in healthcare technology, AI systems, and business development to transform healthcare through intelligent automation.</p>
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="team-member-image">
+                    <div class="team-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <h3>Lester Steptoe Jr.</h3>
+                <p class="team-title">Co-Founder & CEO</p>
+                <p>Business professional with 20+ years in strategic partnerships and Web3. As Texmed's Director, secured $1M+ in revenue via partnerships. Ex-COO of Xsport Global, raised $800K and led tech integration. Expertise in healthcare and global markets.</p>
+            </div>
+            <div class="team-member">
+                <div class="team-member-image">
+                    <div class="team-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <h3>Kashif Kamran</h3>
+                <p class="team-title">Co-Founder & CTO</p>
+                <p>Hybrid professional with 15+ years leading AI, SaaS, and data analytics for startups and enterprises. At Texmed, scaled AI-driven billing solutions, boosting profitability. MBA, Oracle certified, and pursuing doctorate in AI.</p>
+            </div>
+        </div>
+        <div class="team-cta">
+            <p>Interested in joining our team?</p>
+            <a href="#" class="btn-primary">View Careers</a>
+        </div>
+    </section>
+
+    <section id="partners" class="partners">
+        <h2>Partners</h2>
+        <div class="partners-grid">
+            <div class="partner-logo">
+                <img src="images/tidemark-logo.png" alt="Tidemark Therapy" class="partner-img">
+                <p>Tidemark Therapy, USA</p>
+            </div>
+            <div class="partner-logo">
+                <div class="text-logo">PRESHA</div>
+                <p>Presha Consulting, USA</p>
+            </div>
+            <div class="partner-logo">
+                <img src="images/texmed.png" alt="Texmed Billing Solutions" class="partner-img">
+                <p>Texmed Billing Solutions, USA</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2>Ready to optimize your healthcare operations?</h2>
+            <p>Get in touch with our team to learn how Klyrone can transform your clinical diagnosis and revenue cycle management.</p>
+            <a href="https://calendly.com/kamrankashif798/30min" target="_blank" class="btn-primary">Schedule a Call</a>
+        </div>
+        <div class="newsletter">
+            <h3>Subscribe to our newsletter</h3>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn-secondary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#" class="logo">Klyrone</a>
+                <p>AI-powered solutions for healthcare</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Solutions</h4>
+                    <ul>
+                        <li><a href="clinical-diagnosis.html">Clinical Diagnosis</a></li>
+                        <li><a href="rcm-optimization.html">Revenue Cycle Management</a></li>
+                        <li><a href="healthcare-agents.html">Healthcare Agents</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Publications</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Documentation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Klyrone. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
